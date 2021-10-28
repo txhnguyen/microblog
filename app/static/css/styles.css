@@ -1,0 +1,174 @@
+/********************************************************************
+GENERAL
+********************************************************************/
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.container-body {
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+}
+
+.btn {
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px 24px;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    background-color: #000000;
+}
+
+/********************************************************************
+NAVIGATION BAR
+********************************************************************/
+
+.navbar-default {
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-default .navbar-nav li a {
+    color: rgb(0, 0, 0);
+}
+
+.navbar-default .navbar-nav li a:hover {
+    text-decoration: underline;
+}
+
+/********************************************************************
+SECTIONS
+********************************************************************/
+
+.section {
+    padding: 100px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.section p {
+    font-size: 18px;
+}
+
+.section--white {
+    background-color: #FFFFFF;
+}
+
+.section--grey {
+    background-color: #F2F2F2;
+}
+
+/********************************************************************
+FOOTER
+********************************************************************/
+.footer {
+    background-color: black;
+    padding: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.footer a {
+    color: #FFFFFF;
+}
+
+.footer ul {
+    margin-top: 10px;
+    padding: 0px;
+}
+
+.footer li {
+    align-items: center;
+    display: inline;
+}
+
+.footer-container {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 0px;
+}
+
+/* Footer first row */
+
+.footer-row__nav {
+    padding-bottom: 20px;
+}
+
+.footer-row__nav, .footer-row__info {
+    display: flex;
+}
+
+.footer-row__nav .footer-column {
+    flex: 50%;
+    padding: 10px;
+    width: 50%;
+}
+
+.footer-row__nav .footer-column__left a {
+    margin-left: 50px;
+    margin-right: 20px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.footer-row__nav .footer-column__right {
+    text-align: right;
+}
+
+.footer-row__nav .footer-column__right ul {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.footer-row__nav .footer-column__right img {
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+/* Footer line */
+
+.footer-line {
+    background-color: white;
+    padding: 0.5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Footer second row */
+
+.footer-row__info {
+    padding-top: 20px;
+}
+
+.footer-row__info .footer-column {
+    flex: 50%;
+    padding: 10px;
+    width: 50%;
+}
+
+.footer-row__info .footer-column__left a {
+    margin-right: 50px;
+}
+
+.footer-row__info .footer-column__right {
+    text-align: right;
+}
+
+/********************************************************************
+INFORMED CONSENT
+********************************************************************/
+
+.consentline {
+    font-weight: bold;
+}
